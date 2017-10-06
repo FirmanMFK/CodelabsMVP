@@ -52,6 +52,8 @@ dependencies {
     //Gson
     compile "com.google.code.gson:gson:$rootProject.gsonVersion"
 
+    compile 'com.ss.bannerslider:bannerslider:1.8.0'
+
     //Edit Text Lib
     compile 'com.rengwuxian.materialedittext:library:2.1.4'
 
