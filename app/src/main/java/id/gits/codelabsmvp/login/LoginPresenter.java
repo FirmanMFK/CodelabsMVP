@@ -49,6 +49,7 @@ public class LoginPresenter {
         dialog.setMessage(activity.getString(R.string.please_wait));
         dialog.show();
 
+        
         ApiService
                 .getInstance()
                 .getApiInterface()
