@@ -107,6 +107,10 @@ public class WisataActivity extends AppCompatActivity implements WisataView {
         if (item.getItemId() == R.id.action_sort) {
             showSortDialog();
             return true;
+        } else if (item.getItemId() == R.id.action_logout) {
+            sessionManager.logout();
+            finish();
+            return true;
         } else {
             return super.onOptionsItemSelected(item);
         }

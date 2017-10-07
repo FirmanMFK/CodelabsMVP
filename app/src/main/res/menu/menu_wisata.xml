@@ -7,9 +7,9 @@
         app:showAsAction="ifRoom"
         android:icon="@drawable/ic_sort"/>
 
-    <!--<item
+    <item
         android:id="@+id/action_logout"
         android:title="@string/action_logout"
-        app:showAsAction="never"/>-->
+        app:showAsAction="never"/>
 
 </menu>

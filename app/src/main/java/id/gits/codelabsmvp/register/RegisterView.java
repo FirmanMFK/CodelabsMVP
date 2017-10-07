@@ -5,5 +5,6 @@ package id.gits.codelabsmvp.register;
  */
 
 public interface RegisterView {
-    //
+    void onSuccessResponse(String message);
+    void onErrorResponse(String message);
 }
