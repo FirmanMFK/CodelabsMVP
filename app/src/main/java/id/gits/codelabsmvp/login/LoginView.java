@@ -5,6 +5,6 @@ package id.gits.codelabsmvp.login;
  */
 
 public interface LoginView {
-    //
+    void onLoginError(String message);
 }
 
